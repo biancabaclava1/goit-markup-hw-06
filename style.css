@@ -736,7 +736,18 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   color: #2E2F42;
   margin-bottom: 16px;
+}
+
+.data-form{
+  margin-bottom: 8px;
+}
+
+.data-label-name{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
   
-
-
 }
