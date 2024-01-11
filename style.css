@@ -764,9 +764,22 @@ margin: 0 auto;
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .name-input:focus{
   border-color: #4d5ae5;
+}
+
+.name-user-svg{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.name-input:focus + .name-user-svg{
+  fill: #4d5ae5;
 }
