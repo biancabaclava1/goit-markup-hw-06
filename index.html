@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
 
-    <link rel = "preconnect" href = "https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
-    <link rel="stylesheet" href="path/to/modern-normalize.min.css">
+
+
     <link rel="stylesheet" href="style.css">
 
              <title>WebStudio</title>
@@ -380,7 +382,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-div">
-            <div footer-logo-paragraph>
+            <div class="footer-logo-paragraph" >
         <a class="logo-footer link" href="./index.html">Web<span class="studio-span-footer">Studio</span></a>
            <p class="footer-paragraph">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         </div>
@@ -492,6 +494,7 @@
                          <label class="data-label-name">Email</label>
                          <div class="input-svg">
                             <input class="name-input" id="user-name" name="user-name" type="text"/>
+                           
                             <svg class="name-user-svg" width="18" height="24">
                                 <use href="./images/icons.svg#email"></use>
                             </svg>
@@ -508,14 +511,19 @@
                             </div>
 
                             <div class="checkbox">
-                                <input class="inp-check visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy"  />
+                                <input
+                                 class="inp-check visually-hidden" 
+                                 id="user-privacy" 
+                                 type="checkbox" 
+                                 value="true" 
+                                 name="user-privacy"  />
                              
-                                <label class="lab-check" for="user-privacy" >I accept the terms and conditions of the
+                                <label class="lab-check" for="user-privacy" >
                                 <span class="span-check">
                                   <svg class="send-svg" width="10" height="8">
                                    <use href="./images/icons.svg#send"></use>
                                   </svg>
-                                </span>
+                                </span> I accept the terms and conditions of the
                                 <a href="" class="privacy-link">Privacy Policy</a>
                               </label>
                             </div>
